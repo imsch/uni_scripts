@@ -19,12 +19,12 @@ int main() {
               c = i;
           i = i + 1;
 				}
-        startB++;
 				printf("ggT von a = %d und b = %d ist c = %d \n", startA, startB, c);
+        startB++;
 			}
 			startB = 1;
-			startA++;
 			printf("------ %d ------ \n", startA);
+			startA++;
 		}
 
 		return 0;
